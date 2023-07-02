@@ -7,11 +7,6 @@ import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata = {
-//   title: "Pratyay Roy",
-//   description: "Portfolio of Pratyay Roy",
-// };
-
 export default function RootLayout({
   children,
 }: {
@@ -19,7 +14,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
