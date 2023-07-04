@@ -1,10 +1,14 @@
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import ProjectsSection from "./components/ProjectSection";
 import type { Metadata } from "next";
+import AboutSection from "./components/AboutSection";
+import CareerSection from "./components/CareerSection";
+import HeroSection from "./components/HeroSection";
+import ProjectsSection from "./components/ProjectSection";
 
 export const metadata: Metadata = {
   title: "Pratyay Roy",
+  icons: {
+    icon: "👋"
+  },
 };
 export default function Home() {
   return (
@@ -12,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <CareerSection />
     </main>
   );
 }

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const HeroSection = () => {
   return (
@@ -34,19 +35,24 @@ const HeroSection = () => {
               based in India. Working towards creating software that makes life
               easier and more meaningful.
             </p>
-            <Link
-              to="projects"
-              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Projects
-            </Link>
+            <div className="text-neutral-100 font-semibold bg-teal-600 rounded-lg shadow hover:bg-teal-700 py-2 px-4 inline-block">
+              <a
+                href="https://drive.google.com/file/d/1K3Mqom35N2mhs1TyeMd1_xBtmfD5iRHk/view"
+                target={"_blank"}
+                download={true}
+              >
+                Resume
+                <BsArrowUpRightSquare className="pl-2 float-right" size={25} />
+              </a>
+            </div>
+            <div className="ml-2 md:ml-8 text-xl font:medium capitalize text-dark underline inline-block">
+              <a href="mailto:pratyayroy16@gmail.com" target={"_blank"}>
+                Contact
+              </a>
+            </div>
           </div>
         </div>
+
         <div className="flex flex-row items-center text-center justify-center ">
           <Link
             to="about"
