@@ -6,9 +6,7 @@ import ProjectsSection from "./components/ProjectSection";
 
 export const metadata: Metadata = {
   title: "Pratyay Roy",
-  icons: {
-    icon: "👋"
-  },
+  //TODO: change/remove Icon
 };
 export default function Home() {
   return (
