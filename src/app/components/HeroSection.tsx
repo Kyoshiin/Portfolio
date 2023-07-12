@@ -46,7 +46,7 @@ const HeroSection = () => {
               </a>
             </div>
             <div className="ml-2 md:ml-8 text-xl font:medium capitalize text-dark underline inline-block">
-              <a href="mailto:pratyayroy16@gmail.com" target={"_blank"}>
+              <a href="mailto:pratyayroy18@gmail.com" target={"_blank"}>
                 Contact
               </a>
             </div>

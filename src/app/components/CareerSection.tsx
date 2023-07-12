@@ -30,13 +30,13 @@ const CareerSection = () => {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
-        <div className="flex flex-col items-center px-32 space-y-24">
+        <div className="flex flex-col items-center md:px-32 space-y-24">
           {careers.map((career, ind) => {
             return (
               <div key={ind}>
                 <SlideUp offset="-300px 0px -300px 0px">
                   <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2">
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-col md:flex-row justify-between">
                       <div className="flex flex-col">
                         <div className="uppercase font-bold text-2xl">
                           {career.position}
@@ -45,7 +45,7 @@ const CareerSection = () => {
                           {career.company}
                         </div>
                       </div>
-                      <div className="flex flex-col items-end justify-end">
+                      <div className="flex flex-col md:items-end md:justify-end">
                         <div className="text-gray-400">{career.address}</div>
                         <div className="text-red-500">{career.time}</div>
                       </div>
