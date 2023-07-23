@@ -4,6 +4,7 @@ import {
   AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineReddit,
+  AiOutlineMail,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -47,11 +48,11 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.reddit.com/user/Outrageous-Market863/"
+            href="mailto:pratyayroy18@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineReddit
+            <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
