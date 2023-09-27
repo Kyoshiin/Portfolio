@@ -3,7 +3,6 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
-  AiOutlineReddit,
   AiOutlineMail,
 } from "react-icons/ai";
 
